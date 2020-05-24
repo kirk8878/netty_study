@@ -1,0 +1,7 @@
+syntax = "proto3"; //版本
+option java_outer_classname = "StudentPOJO";
+//proto使用message管理数据
+message Student {
+    int32 id = 1;
+    string name = 2;
+}
